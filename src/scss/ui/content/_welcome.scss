@@ -6,6 +6,7 @@
   text-align: center;
 
   &__heading {
+    @include m.italic-heading;
   }
 
   &__text {

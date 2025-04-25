@@ -47,3 +47,20 @@
   gap: $spacing;
   grid-template-columns: repeat($columns, 1fr);
 }
+
+@mixin italic-heading {
+  text-align: center;
+  color: v.$secondary;
+  line-height: 0.8;
+  font-family: v.$italic-font;
+  font-weight: 400;
+  font-size: 4rem;
+  text-transform: lowercase;
+
+  span {
+    color: v.$black;
+    display: block;
+    text-transform: uppercase;
+    font-family: v.$main-font;
+  }
+}
