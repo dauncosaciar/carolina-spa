@@ -48,6 +48,13 @@
   grid-template-columns: repeat($columns, 1fr);
 }
 
+@mixin heading {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
 @mixin italic-heading {
   text-align: center;
   color: v.$secondary;
