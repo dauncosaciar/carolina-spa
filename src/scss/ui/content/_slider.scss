@@ -1,0 +1,44 @@
+@use "sass:color";
+@use "base/variables" as v;
+
+/* Slider */
+.slider {
+  overflow: hidden;
+  position: relative;
+
+  &__slide {
+    height: 100%;
+    flex-shrink: 0;
+    width: 100%;
+    position: relative;
+    transition-property: transform;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: v.$white;
+  }
+
+  .swiper-pagination-bullet {
+    background-color: v.$white;
+    opacity: 0.5;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: v.$primary;
+  }
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
