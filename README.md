@@ -1,20 +1,22 @@
 ## Resumen de App
 
-**URL de APP:** [https://meeti-app-css.netlify.app/](https://meeti-app-css.netlify.app/)
+**URL de APP:** [https://carolina-spa-css.netlify.app/](https://carolina-spa-css.netlify.app/)
 
-Proyecto que se trata del diseño de sitio web clon de Meetup, el cual tiene las siguientes secciones:
+Proyecto que se trata del diseño de sitio web de un Salón de Belleza, el cual tiene las siguientes secciones:
 
-🚀 Header.
+🌷 Header.
 
-🚀 Obtener una Cuenta.
+🌷 Bienvenido a Nuestro Sitio Web.
 
-🚀 Busca un Grupo en tu Ciudad.
+🌷 Servicios.
 
-🚀 Próximos Eventos.
+🌷 Horarios.
 
-🚀 Categorías.
+🌷 Nuestros Productos.
 
-🚀 Footer.
+🌷 Realiza una Cita.
+
+🌷 Footer.
 
 ## Tecnologías / lenguajes utilizados para desarrollo
 
